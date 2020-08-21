@@ -32,3 +32,6 @@ body{
 .navbar-dark {
      background-color: #512DA8;
 }
+.radio-inline{
+    letter-spacing: 6px;
+}

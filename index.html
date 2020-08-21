@@ -37,11 +37,15 @@
                 <div class="col-12 col-sm-6">
                     <h1>Ristorante con Fusion</h1>
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
+                    
                 </div>
                 <div class="col-12 col-sm">
                     <div class="col-12 col-sm align-self-center">
                         <img src="img/logo.png" class="img-fluid">
                     </div>
+                </div>
+                <div class="col-12 col-sm align-self-center">
+                  <a href="#reserve"><input class="btn btn-warning btn-block" type="button" value="Reserve Table"> </a>
                 </div>
             </div>
         </div>
@@ -73,8 +77,14 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                    <div class="media-body">
+                        <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads,
+                         six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                    </div>
+                    <img  class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="buffet">
+                </div>
             </div>
         </div>
 
@@ -98,8 +108,55 @@
                 </div>
             </div>
         </div>
+        <div class="row row-content justify-content-center" id="reserve">
+            <div class="col-12 col-sm-4 col-md-8">
+                <div class="card">
+                    <form>
+                        <h3 class="card-header bg-warning text-white">Reserve A Table</h3>
+                        <div class="card-body">
+                            <dl class="row">
+                                <dt class="col-12 col-md-3 col-lg-2">Number of guests</dt>
+                            </label>
+                            <label class="radio-inline">
+                              <input type="radio" name="optradio"> 1
+                            </label>
+                            <label class="radio-inline">
+                              <input type="radio" name="optradio"> 2
+                            </label>
+                            <label class="radio-inline">
+                                <input type="radio" name="optradio"> 3
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio"> 4
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio"> 5
+                              </label>
+                              <label class="radio-inline">
+                                <input type="radio" name="optradio"> 6
+                              </label>
+                            </dl>
+                            <dl class="row">
+                            <dt class="col-12 col-md-3 col-lg-2"> Date and Time</dt>
+                            <div class="col-12 col-md-4">
+                                <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                            </div>
+                            </dl>
+                            
+                                <input class="btn btn-primary" type="button" value="Reserve" >
+                            
+                        </div>
+            
+                        
+                    </form>
+                </div>
+            </div>
+         </div>
     </div>
-
+    
     <footer class="footer">
         <div class="container">
             <div class="row">             
